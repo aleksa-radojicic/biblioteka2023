@@ -9,6 +9,7 @@ public class Biblioteka implements BibliotekaInterfejs {
 
 	private List<Knjiga> knjige = new ArrayList<>();
 
+	//metoda koja dodaje knjigu u biblioteku
 	@Override
 	public void dodajKnjigu(Knjiga knjiga) {
 		
